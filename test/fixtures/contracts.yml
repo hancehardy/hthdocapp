@@ -1,0 +1,43 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  job_number: 1.5
+  name: MyString
+  amount: 9.99
+  salesperson: MyString
+  commission: 9.99
+  referral_name: MyString
+  referral_commission: 9.99
+  milestone_1_id: 1
+  milestone_1_date: 2021-05-04
+  milestone_1_complete: false
+  milestone_2_id: 1
+  milestone_2_date: 2021-05-04
+  milestone_2_complete: false
+  milestone_3_id: 1
+  milestone_3_date: 2021-05-04
+  milestone_3_complete: false
+  milestone_4_id: 1
+  milestone_4_date: 2021-05-04
+  milestone_4_complete: false
+
+two:
+  job_number: 1.5
+  name: MyString
+  amount: 9.99
+  salesperson: MyString
+  commission: 9.99
+  referral_name: MyString
+  referral_commission: 9.99
+  milestone_1_id: 1
+  milestone_1_date: 2021-05-04
+  milestone_1_complete: false
+  milestone_2_id: 1
+  milestone_2_date: 2021-05-04
+  milestone_2_complete: false
+  milestone_3_id: 1
+  milestone_3_date: 2021-05-04
+  milestone_3_complete: false
+  milestone_4_id: 1
+  milestone_4_date: 2021-05-04
+  milestone_4_complete: false

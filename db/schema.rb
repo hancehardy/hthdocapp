@@ -10,7 +10,31 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_05_04_051620) do
+ActiveRecord::Schema.define(version: 2021_05_05_064804) do
+
+  create_table "contracts", force: :cascade do |t|
+    t.float "job_number"
+    t.string "name"
+    t.decimal "amount"
+    t.string "salesperson"
+    t.decimal "commission"
+    t.string "referral_name"
+    t.decimal "referral_commission"
+    t.integer "milestone_1_id"
+    t.date "milestone_1_date"
+    t.boolean "milestone_1_complete"
+    t.integer "milestone_2_id"
+    t.date "milestone_2_date"
+    t.boolean "milestone_2_complete"
+    t.integer "milestone_3_id"
+    t.date "milestone_3_date"
+    t.boolean "milestone_3_complete"
+    t.integer "milestone_4_id"
+    t.date "milestone_4_date"
+    t.boolean "milestone_4_complete"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
